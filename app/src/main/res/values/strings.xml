@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoginPage</string>
+
+
+    <string-array name="select">
+        <item>Tambah</item>
+        <item>Kurang</item>
+        <item>Kali</item>
+        <item>Bagi</item>
+    </string-array>
+</resources>

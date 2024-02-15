@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+
+        <ImageView
+
+            android:id="@+id/ic_nexflix"
+            android:layout_width="144dp"
+            android:layout_height="102dp"
+            android:layout_margin="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/ic_netflix" />
+
+
+
+        <TextView
+
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Sign In"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            app:layout_constraintTop_toBottomOf="@id/ic_nexflix"/>
+
+
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:hint="Email atau nomor ponsel"
+        android:background="@drawable/edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editText"
+        android:layout_margin="10dp"
+        android:padding="16dp"
+
+
+    />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:background="@drawable/edit_text"
+        android:hint="Sandi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtUsername"
+        android:layout_margin="10dp"
+        android:padding="16dp"
+    />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnmasuk"
+        android:layout_width="370dp"
+        android:layout_height="52dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="masuk"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtPassword"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmasuk" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        app:layout_constraintTop_toBottomOf="@id/btnmasuk"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="13dp"
+        android:textStyle="normal"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btnmasuk"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="30dp"
+        android:text="Need help?"
+        android:textColor="#fff"/>
+
+
+    <ImageView
+        android:id="@+id/ic_fb"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/fb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkBox2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login with Facebook"
+        app:layout_constraintStart_toStartOf="@id/ic_fb"
+        app:layout_constraintTop_toBottomOf="@id/text"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="29dp"
+        />
+    <TextView
+        android:id="@+id/txtSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New to Netflix? Sign up now."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_fb"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="40dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
