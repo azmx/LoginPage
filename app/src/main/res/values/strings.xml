@@ -8,4 +8,19 @@
         <item>Kali</item>
         <item>Bagi</item>
     </string-array>
+    
+    <string-array name="foodname">
+        <item>Ayam Goreng</item>
+        <item>Cireng</item>
+        <item>Mie Goreng</item>
+        <item>Usus Goreng</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Ayam yang di goreng dengan bumbu yang membuat lebih nikmat</item>
+        <item>Gorengan yang berasal dari tepung kanji bertekstur kenyal</item>
+        <item>Mie goreng dengan bumbu yang khas </item>
+        <item>Usus yang digoreng krispy gurih gurih mantap</item>
+    </string-array>
+
 </resources>

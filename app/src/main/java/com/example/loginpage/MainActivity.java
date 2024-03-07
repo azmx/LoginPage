@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 String password = txtPassword.getText().toString().trim();
 
                 if (username.equals("admin") && password.equals("admin")) {
-                    Intent intent = new Intent(MainActivity.this, kalkulator.class);
+                    Intent intent = new Intent(MainActivity.this, makananFavList.class);
                     startActivity(intent);
                 }else {
                     Toast.makeText(MainActivity.this, "Gagal Login", Toast.LENGTH_SHORT).show();
